@@ -1,0 +1,20 @@
+{
+  "name": "nuevo-proyecto-esm",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha tests/*.test.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.8.2",
+    "supertest": "^7.0.0"
+  }
+}
